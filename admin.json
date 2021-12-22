@@ -1,0 +1,32 @@
+{
+    "admin": [
+        {
+            "id": "1",
+            "name": "dali",
+            "email": "dali",
+            "pasword": "dali",
+            "tel": "548575"
+            
+            
+        },
+	{
+            "id": "2",
+            "name": "jihed",
+            "email": "jihed",
+            "pasword": "jihed",
+            "tel": "548536656"
+            
+            
+        },
+	{
+            "id": "3",
+            "name": "chaima",
+            "email": "chaima",
+            "pasword": "chaima",
+            "tel": "265852"
+            
+            
+        }
+        
+    ]
+}
