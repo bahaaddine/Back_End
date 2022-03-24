@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "title": "Why Bitcoin is popular? ",
+    "excerpt": "You can use the bitcoin for trading and make summ money by your self",
+    "date": "28 feb 2022",
+    "author": "John Doe",
+    "image": "https://bitcoin.org/img/icons/opengraph.png?1644775669",
+    "url": "/blog-post"
+  },
+  {
+    "id": "2",
+    "title": "Three things to know about bitcoin.",
+    "excerpt": "Bitcoin is a form of currency. ... ;The creator is somewhat of a mystery. ...;There is a finite amount. ...;Bitcoin has some high-profile critics and investors. ...",
+    "date": "28 feb 2022",
+    "author": "Jonathon Doe",
+    "image": "https://stat2.moneycontrol.com/assets/images/ms/wazirx/a-beginners-guide.jpg",
+    "url": "/blog-post"
+  },
+  {
+    "id": "3",
+    "title": "When to use Bitcoin?",
+    "excerpt": "There are many variations passages of Lorem Ipsum available,the majority have suffered alteration in some form.",
+    "date": "28 feb 2022",
+    "author": "James Doe",
+    "image": "https://st3.depositphotos.com/5906102/14454/v/600/depositphotos_144548091-stock-illustration-crypto-currency-bitcoin-golden-symbol.jpg",
+    "url": "/blog-post"
+  }
+]

@@ -12,7 +12,8 @@ exports.signup = (req, res, next) => {
         ville: req.body.ville,
         email: req.body.email,
         password: hash,
-        tel:req.body.tel
+        tel:req.body.tel,
+        role:req.body.role
       });
               user.save()
                   .then(() => res.status(201).json({
@@ -37,6 +38,11 @@ exports.signup = (req, res, next) => {
               }
               res.status(200).json({
                 userId: user._id,
+                pseudo: user.pseudo,
+                Name:user.Name,
+                ville:user.ville,
+                tel:user.tel,
+                role:user.role,
                 token: jwt.sign(
                   { userId: user._id },
                   'RANDOM_TOKEN_SECRET',

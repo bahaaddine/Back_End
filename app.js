@@ -1,8 +1,7 @@
 const express = require('express');
 const mongoose=require('mongoose');
 const userRouter= require('./routes/users');
-const carRouter=require('./routes/cars');
-const  adminRouter=require('./routes/admins')
+const articleRouter=require('./routes/article');
 const app = express();
 //torbett ell app mteek bell mongo db
 mongoose.connect('mongodb://localhost:27017/Crash_Car',
@@ -22,6 +21,5 @@ app.use((req, res, next) => {
 
 //tasna3 awellll API
 app.use('/api/users', userRouter);
-app.use('/api/cars',carRouter);
-app.use('/api/admins',adminRouter);
+app.use('/api/Article',articleRouter);
 module.exports=app;
